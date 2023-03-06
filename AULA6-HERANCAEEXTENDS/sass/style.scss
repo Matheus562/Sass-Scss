@@ -1,0 +1,20 @@
+.btn {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px; /*Arredonda as bordas*/
+  display: block; /*Organiza um em cima do outro*/
+  margin-top: 10px; /*Distanciamento*/
+
+  &.btn-amarelo {
+    background-color: yellow;
+  }
+  &#btn-azul {
+    background-color: blue;
+    color: white;
+  }
+}
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}
